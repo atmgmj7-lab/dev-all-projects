@@ -7,3 +7,6 @@
 [submodule "rokuon"]
 	path = rokuon
 	url = git@github.com:atmgmj7-lab/rokuon.git
+[submodule "sooon-sales-os"]
+	path = sooon-sales-os
+	url = git@github.com:atmgmj7-lab/sooon-sales-os.git
