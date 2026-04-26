@@ -1,0 +1,9 @@
+[submodule "silas-saas"]
+	path = silas-saas
+	url = git@github.com:atmgmj7-lab/silas-saas.git
+[submodule "mens-esthe-seo-tools"]
+	path = mens-esthe-seo-tools
+	url = git@github.com:atmgmj7-lab/mens-esthe-seo-tools.git
+[submodule "rokuon"]
+	path = rokuon
+	url = git@github.com:atmgmj7-lab/rokuon.git
