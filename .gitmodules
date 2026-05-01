@@ -10,3 +10,6 @@
 [submodule "sooon-sales-os"]
 	path = sooon-sales-os
 	url = git@github.com:atmgmj7-lab/sooon-sales-os.git
+[submodule "Sooon-CRM"]
+	path = Sooon-CRM
+	url = git@github.com:atmgmj7-lab/SooonCRM.git
