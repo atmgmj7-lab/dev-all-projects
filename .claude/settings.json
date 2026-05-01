@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(lsof -ti:3000)",
+      "Bash(ps -p 2922 -p 3598 -o pid,command)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)",
+      "Bash(curl -s -L http://localhost:3000/ -o /dev/null -w \"%{url_effective} → %{http_code}\")"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "model": "sonnet",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/narikiyotakashi/.claude-code/hooks/cursor-delegate.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "company@cc-company": true,
+    "everything-claude-code@everything-claude-code": true
+  },
+  "extraKnownMarketplaces": {
+    "cc-company": {
+      "source": {
+        "source": "github",
+        "repo": "Shin-sibainu/cc-company"
+      }
+    },
+    "everything-claude-code": {
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code"
+      }
+    }
+  },
+  "effortLevel": "high",
+  "skipDangerousModePermissionPrompt": true
+}
