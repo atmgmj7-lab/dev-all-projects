@@ -13,3 +13,6 @@
 [submodule "Sooon-CRM"]
 	path = Sooon-CRM
 	url = git@github.com:atmgmj7-lab/SooonCRM.git
+[submodule "mens-esthe-kuchikomi"]
+	path = mens-esthe-kuchikomi
+	url = git@github.com:atmgmj7-lab/mens-esthe-kuchikomi.git
